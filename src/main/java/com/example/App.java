@@ -1,15 +1,10 @@
-package main.java.com.example;
+package com.example;
 
 public class App {
 
-    public static void main(String[] args) throws Exception {
-
+    public static void main(String[] args) {
         Calculator calc = new Calculator();
-
-        System.out.println(calc.calculate(10, 5, "add"));
-
-        UserService service = new UserService();
-        service.findUser("admin");
+        System.out.println("Result: " + calc.calculate(10, 5, "add"));
     }
 }
 
